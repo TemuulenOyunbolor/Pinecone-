@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgba(244, 244, 244, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.fullcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 480px;
+
+  padding-left: 20px;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: black;
+  padding: 40 10 50 10;
+}
+.img {
+  width: 60px;
+  height: 60px;
+}
+h1 {
+  color: black;
+  font-weight: 600;
+}
+.input1 {
+  display: flex;
+  gap: 10px;
+}
+.name {
+  color: black;
+}
+.od {
+  color: rgba(225, 73, 66, 1);
+}
+input {
+  width: 416px;
+  height: 44px;
+  border: 1px solid rgba(203, 213, 225, 1);
+  border-radius: 10px;
+  padding-left: 10px;
+  color: black;
+}
+.continuebutton {
+  color: white;
+  background-color: black;
+  width: 416px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.continue {
+  padding: 200 10 30;
+  display: flex;
+  gap: 5px;
+}
+.sum {
+  width: 7.41px;
+  height: 12px;
+}
+.header {
+  color: rgba(142, 142, 142, 1);
+}
+.input-error {
+  border: 1px solid rgba(225, 73, 66, 1);
+}
+.backbutton {
+  background-color: white;
+  border: 1px solid rgba(203, 213, 225, 1);
+  border-radius: 10px;
+  width: 128px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.imginput {
+  border: rgba(127, 127, 128, 0.05);
+}
+.dateandimg {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.picture {
+  width: 416px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.continuethree {
+  padding: 20 10 30;
+  display: flex;
+  gap: 5px;
+}
